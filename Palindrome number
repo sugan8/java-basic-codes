@@ -1,0 +1,16 @@
+public class palindromeprogram {
+public static void main(String args[]) {
+int s, sum = 0, ans;
+int n = 121; 
+ans= n;
+while (n > 0) {
+s = n % 10; 
+sum = (sum * 10) + s;
+n = n / 10;
+}
+if (ans == sum)
+System.out.println("yes palindrome number");
+else
+System.out.println("not palindrome");
+}
+}
