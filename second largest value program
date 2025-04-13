@@ -1,0 +1,9 @@
+import java.util.Arrays;
+public class secondlargestnumberusingarray{
+    public static void main(String[]args){
+        int[]number = {1,2,34,556};
+       Arrays.sort(number);
+       System.out.print(Arrays.toString(number));
+       System.out.print(number[number.length-2]);
+    }
+}
