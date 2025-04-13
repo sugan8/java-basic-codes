@@ -1,0 +1,22 @@
+import java.util.Scanner;
+    public class removespaces{
+        public static String removeWhiteSpaces (String in){
+            StringBuilder output = new StringBuilder();
+// to change charater into a array
+            char[]CharArray=in.toCharArray();
+            for (char c:CharArray){
+// to remove whitespaces from input
+            if (!Character.isWhitespace(c))
+            output.append(c);
+            }
+            return output.toString();
+        }
+     public static void main(String[]args){
+         Scanner x=new Scanner(System.in);
+         System.out.println("Enter the string with spaces:");
+         String userInput =x.nextLine();
+         String result=removeWhiteSpaces(userInput);
+         System.out.println(result);
+         x.close();
+     }
+}
