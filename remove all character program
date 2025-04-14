@@ -1,0 +1,11 @@
+public class RemoveCharacter {
+    public static void main(String[] args) {
+        String input = "banana";
+        char toRemove = 'a';
+
+        // Replace all occurrences of the character with an empty string
+        String result = input.replace(Character.toString(toRemove), "");
+
+        System.out.println("After removing '" + toRemove + "': " + result);
+    }
+}
