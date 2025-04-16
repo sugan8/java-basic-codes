@@ -1,0 +1,12 @@
+public class textblockprogram{
+    public static void main(String args[]){
+        String text="""
+        {
+            Hello,
+This is a text block in Java!
+Multiline and cleaner
+vanakam da mapla.}""";
+
+System.out.println(text);
+    }
+}
