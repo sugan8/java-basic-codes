@@ -1,0 +1,20 @@
+public class OverloadingExample{
+    void greet(){
+        System.out.println("hello!");
+    }
+    void greet (String name){
+        System.out.println("hello,"+name+"!");
+    }
+    void greet(String name, int age){
+        System.out.println("hello,"+name+"you are"+age+"years old.");
+    }
+    
+    public static void main (String args[]){
+        OverloadingExample obj = new OverloadingExample();
+
+        
+    obj.greet();
+    obj.greet(" sugan");
+    obj.greet("sugan",34);
+    }
+}
