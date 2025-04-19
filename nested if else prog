@@ -1,0 +1,21 @@
+// Nested if-else means:
+// Putting an if-else statement inside another if or else block.
+
+public class nestedifelseprogram{
+    public static void main(String args[]){
+
+int age = 20;
+int marks = 85;
+
+if (age >= 18) {
+    // This runs only if age is 18 or more
+    if (marks >= 80) {
+        System.out.println("Eligible with distinction!");
+    } else {
+        System.out.println("Eligible, but no distinction.");
+    }
+} else {
+    System.out.println("Not eligible.");
+}
+}
+}
