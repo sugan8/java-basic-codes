@@ -1,0 +1,17 @@
+class AddEx {
+    public static void main(String args[]) {
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+        int d = a * b;
+        int e = a - b;
+        int f = a / b;
+        int g = a % b;
+
+        System.out.println("\nAdd Two No is :" + c);
+        System.out.println("Mul Two No is :" + d);
+        System.out.println("Sub Two No is :" + e);
+        System.out.println("Div Two No is :" + f);
+        System.out.println("Remainder is :" + g);
+    }
+}
