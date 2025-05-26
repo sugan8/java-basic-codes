@@ -1,0 +1,8 @@
+public class ter{
+    public static void main(String args[]){
+        int a=10;
+        int b=15;
+        int greater=(a>b)?a:b;
+        System.out.println("the greater value is:"+greater);
+    }
+}
